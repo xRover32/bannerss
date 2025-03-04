@@ -1,0 +1,32 @@
+@media screen and (max-width:1024px){
+    #uno{
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-image: url(img/grande.png);
+        background-size:contain ;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:720px) {
+    #uno {
+        width:100%;
+        height: 400px;
+        background-image: url(img/mediano.png);
+        background-size: contain;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    #uno {
+        width: 100%;
+        height: 400;
+        background-image: url(img/chico.png);
+        background-size: contain;
+    }
+    
+}
